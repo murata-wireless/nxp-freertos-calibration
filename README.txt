@@ -25,4 +25,10 @@ SDK : 2.12.1
    These files are already a part of SDK release 2.12.1 and can be found under
 Ex: SDK_2_12_1_MIMXRT1170-EVK\components\wifi_bt_module\Murata\tx_pwr_limits
 
+SDK : 2.14.x or newer
+=====================
+   These file are not included in the SDK release (except WW files) and must be
+downloaded by the user and placed in the correct location to use.
+Ex: SDK_2_15_000_EVK-MIMXRT1060\components\wifi_bt_module\Murata\tx_pwr_limits
+
 

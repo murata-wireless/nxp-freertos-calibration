@@ -24,6 +24,11 @@
  *
  */
 
+#ifndef _WLAN_TXPWRLIMIT_CFG_MURATA_1ZM_WW_H_
+#define _WLAN_TXPWRLIMIT_CFG_MURATA_1ZM_WW_H_
+
+#define WLAN_REGION_CODE "WW"
+
 static wlan_chanlist_t chanlist_2g_cfg = {
     .num_chans = 14,
     .chan_info[0] =
@@ -1546,3 +1551,5 @@ static wifi_txpwrlimit_t
 };
 #endif /* CONFIG_5GHz_SUPPORT */
 #endif /* CONFIG_11AC */
+
+#endif /* _WLAN_TXPWRLIMIT_CFG_MURATA_1ZM_WW_H_ */
