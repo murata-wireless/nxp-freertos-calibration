@@ -24,6 +24,11 @@
  *
  */
 
+#ifndef _WLAN_TXPWRLIMIT_CFG_MURATA_2DS_US_H_
+#define _WLAN_TXPWRLIMIT_CFG_MURATA_2DS_US_H_
+
+#define WLAN_REGION_CODE "US"
+
 static wlan_chanlist_t chanlist_2g_cfg = {
     .num_chans = 11,
     .chan_info[0] =
@@ -219,3 +224,5 @@ static wifi_txpwrlimit_t tx_pwrlimit_2g_cfg = {
             .txpwrlimit_entry = {{0, 17}, {1, 12}, {2, 12}, {3, 12}, {4, 11}, {5, 11}, {6, 11}, {7, 0}, {8, 0}, {9, 0}},
         },
 };
+
+#endif /* _WLAN_TXPWRLIMIT_CFG_MURATA_2DS_US_H_ */
