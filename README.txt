@@ -2,7 +2,7 @@
 Provides Transmit Power Configuration Files for FreeRTOS
 
 
-This repo, "nxp-freertos-calibration", contains the following Tx Power Limit files for 1ZM, 1XK and 2DS.
+This repo, "nxp-freertos-calibration", contains the following Tx Power Limit files for 1ZM, 1XK, 2DS and 2EL.
    -   wlan_txpwrlimit_cfg_murata_1XK_CA.h    
    -   wlan_txpwrlimit_cfg_murata_1XK_EU.h    
    -   wlan_txpwrlimit_cfg_murata_1XK_JP.h    
@@ -18,6 +18,10 @@ This repo, "nxp-freertos-calibration", contains the following Tx Power Limit fil
    -   wlan_txpwrlimit_cfg_murata_2DS_JP.h
    -   wlan_txpwrlimit_cfg_murata_2DS_US.h
    -   wlan_txpwrlimit_cfg_murata_2DS_WW.h
+   -   wlan_txpwrlimit_cfg_murata_2EL_CA_RU_Tx_power.h
+   -   wlan_txpwrlimit_cfg_murata_2EL_EU_RU_Tx_power.h
+   -   wlan_txpwrlimit_cfg_murata_2EL_JP_RU_Tx_power.h
+   -   wlan_txpwrlimit_cfg_murata_2EL_US_RU_Tx_power.h
 
 
 SDK : 2.12.1
